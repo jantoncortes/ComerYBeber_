@@ -1,0 +1,40 @@
+/*Hoja de estidos pagina web comer&beber */
+
+main{
+    background-color: white;
+    
+}
+
+.encabezado {
+    background-image: url('ruta-de-tu-imagen.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    /* height: 200px; La altura será igual a la de la ventana del navegador */
+    width:700px;
+    height:240px;
+    display: flex; /* Utiliza flexbox para centrar el texto */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    color: white; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para mejorar la legibilidad */
+
+}
+
+#titulo-principal {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    background-image: url("img/fuente_comida.jpg");
+    text-align: center;
+
+}
+
+img {
+    width:200px;
+    border-width:5px;
+    border-color:blue;
+    border-style:solid;
+}
+
