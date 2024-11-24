@@ -1,40 +1,148 @@
 /*Hoja de estidos pagina web comer&beber */
 
-main{
-    background-color: white;
+/* General */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* Encabezado */
+header .encabezado {
+    position: relative;
+    text-align: center;
+    color: #fff; 
+}
+
+header .img-encabezado {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+header .encabezado h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:#fff
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+section .img-historia  {
+    padding: 2px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+section div.menu-section{
+    background-color: #fff;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+section div.menu-section ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section div.menu-section li{
+    font-size: 1.2em;
+    padding: 8px 0;
+    border-bottom: 0px;
+}
+
+section img.img-bloque {
+    max-width: 33%;
+    height: auto;
+    margin: 10px 0;
+}
+
+
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: rgba(249, 199, 68, 255);
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.boton:hover {
+    background-color: rgba(249, 199, 68, 0.8);
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    border-top: 1px solid #ddd;
+
+}
+
+footer .redes-sociales {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+footer .redes-sociales li {
+    display: inline;
+    margin: 0 10px;
+  }
+
+footer .redes-sociales a {
+    text-decoration: none;
+    color: rgb(105, 23, 236);
+    padding-left: 0%;
+    padding-right: 2%;
+}
+
+footer .redes-sociales a:hover {
+    text-decoration: none;
+}
+
+footer img.img-redes {
+    max-width: 3%;
+    height: auto;
+    margin: 1px 0;
+    padding: 0%;
     
 }
-
-.encabezado {
-    background-image: url('ruta-de-tu-imagen.jpg');
-    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    /* height: 200px; La altura será igual a la de la ventana del navegador */
-    width:700px;
-    height:240px;
-    display: flex; /* Utiliza flexbox para centrar el texto */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    color: white; /* Color del texto */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para mejorar la legibilidad */
-
-}
-
-#titulo-principal {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: white;
-    background-image: url("img/fuente_comida.jpg");
-    text-align: center;
-
-}
-
-img {
-    width:200px;
-    border-width:5px;
-    border-color:blue;
-    border-style:solid;
-}
-

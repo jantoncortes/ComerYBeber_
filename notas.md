@@ -28,3 +28,8 @@ Ver redes_ejemplo.png
 •	Un archivo index.html con el contenido de la página.
 •	Un archivo estilo.css con el formato del sitio web.
 •	Una carpeta con todas las imágenes utilizadas.
+
+
+# Errores a comentar:
+No carga las redes sociales
+Colocación iconos redes sociales
