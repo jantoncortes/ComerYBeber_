@@ -31,5 +31,6 @@ Ver redes_ejemplo.png
 
 
 # Errores a comentar:
+Colocación imágen historia a la derecha para que quede espacio para poner el texto.
 No carga las redes sociales
 Colocación iconos redes sociales
