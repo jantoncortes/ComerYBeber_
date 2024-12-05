@@ -45,21 +45,54 @@ header .encabezado h1 {
     margin: 0;
     font-size: 2.5rem;
     font-weight: bold;
-    color:#fff
+    color:#fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 /* Secciones */
+/* Ajustes generales de la sección */
 section {
     padding: 20px;
     text-align: center;
     font-family: "Roboto", sans-serif;
-}
+  }
+  
+  section .historia {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Nuevo estilo para alinear imagen y texto */
+  .historia-contenedor {
+    display: flex; /* Usar flexbox para alineación */
+    align-items: center; /* Alinear verticalmente */
+    gap: 20px; /* Separación entre imagen y texto */
+    justify-content: left; /* Centrar horizontalmente */
+    text-align: justify; /* Asegurar alineación del texto */
+  }
+  
+  /* Ajustes para la imagen */
+  .img-historia {
+    max-width: 150px; /* Tamaño máximo para la imagen */
+    height: auto; /* Mantener proporciones */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  /* Ajustes para el texto */
+  .texto-historia {
+    font-size: 1.2em;
+    line-height: 1.5; /* Espaciado entre líneas */
+  }
+  
 
-section .img-historia  {
-    padding: 2px;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
+
+section img.img-historia  {
+    padding: 1%;
+    /* text-align: center;
+    font-family: "Roboto", sans-serif; */
+    max-width: 30%;
+    height: auto;
+    margin: 5px;
 }
 
 section div.menu-section{
